@@ -264,3 +264,4 @@ matrixGenerator(x, y);
 console.log(array[1][2]);
 // Con le conoscenze attuali sono riuscito ad affrontare l esercizio solo in questa maniera
 // trasformare in stringhe i numeri e +
+// possibilitá di eliminare un push
