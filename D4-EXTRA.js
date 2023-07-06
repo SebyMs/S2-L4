@@ -135,7 +135,7 @@ latestShoppingCart(array);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-// esercizio impossibile con le richieste fatte!!!!!!!!!!!!!!
+// esercizio impossibile con le richieste fatte <= senno in random non funziona quando chiama il valore massimo!!!!!!!!!!!!!!
 randNum1 = Math.floor(Math.random() * 10);
 const loopUntil = function (num) {
   x = 0;
@@ -148,7 +148,9 @@ const loopUntil = function (num) {
     }
   }
 };
+loopUntil(randNum1);
 
+// se si vuole eseguire eseguire il programma chiamare la funzione con loopUntil(randNum1)
 /* EXTRA 7
 Crea una funzione chiamata "average" che riceve un array come parametro e ne ritorna la media aritmetica. La funzione salta automaticamente i valori non numerici nell'array.
 */
@@ -261,3 +263,4 @@ const matrixGenerator = function (x, y) {
 matrixGenerator(x, y);
 console.log(array[1][2]);
 // Con le conoscenze attuali sono riuscito ad affrontare l esercizio solo in questa maniera
+// trasformare in stringhe i numeri e +
