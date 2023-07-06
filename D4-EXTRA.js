@@ -186,7 +186,7 @@ const longest = function (arr) {
       }
     }
   }
-  console.log(newarray[1]);
+  console.log(stringaLunga);
 };
 
 longest(stringhe);
