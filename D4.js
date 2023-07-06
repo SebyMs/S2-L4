@@ -150,7 +150,7 @@ const upperFirst = function (str) {
     switch (newString[i]) {
       case " ":
         newString[i + 1] = newString[i + 1].toUpperCase();
-      case " ":
+      default:
         newString[0] = newString[0].toUpperCase();
     }
   }
@@ -183,7 +183,7 @@ console.log(risultato);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-randNum1 = Math.floor(Math.random() * 10);
+randNum1 = Math.floor(Math.random() * 20);
 const giveMeRandom = function (n) {
   arr = [];
   for (let i = 0; i < n; i++) {
